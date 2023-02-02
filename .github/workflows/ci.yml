@@ -22,7 +22,7 @@ jobs:
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7.x
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install
@@ -37,3 +37,29 @@ jobs:
           bundle install --jobs 4 --retry 3
           bundle exec rails db:prepare
           bundle exec rails test
+      - name: Setup database
+        env:
+          PG_DATABASE: cicd_test
+          PG_HOST: localhost
+          PG_USER: postgres
+          PG_PASSWORD: postgres
+          RAILS_ENV: test
+          WITH_COVERAGE: true
+          DISABLE_SPRING: 1
+        run: |
+          bundle exec rails db:prepare
+          bundle exec rake test
+      - name: Build and test with RSpec
+        env:
+          PG_DATABASE: postgres
+          PG_HOST: localhost
+          PG_USER: postgres
+          PG_PASSWORD: postgres
+          RAILS_ENV: test
+        run: |
+          bundle exec rspec spec
+      - name: Create Coverage Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: code-coverage
+          path: coverage/

@@ -57,6 +57,7 @@ group :test do
   gem 'rspec-rails', '~> 4.1.2'
   gem 'factory_girl_rails'
   gem 'capybara'
+  gem 'simplecov', require: false
   gem 'database_cleaner'
   gem 'selenium-webdriver', '>= 4.0.0.rc1'
   # Easy installation and use of web drivers to run system tests with browsers
