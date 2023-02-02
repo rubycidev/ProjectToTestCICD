@@ -261,6 +261,7 @@ DEPENDENCIES
   capybara
   database_cleaner
   factory_girl_rails
+  ffi
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg
