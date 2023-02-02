@@ -72,6 +72,8 @@ blocks:
           - sem-service start postgres
           - sem-version ruby 2.7.6
           - bundle install --deployment --path vendor/bundle
+          - bundle exec rake db:drop
+          - bundle exec rake db:create
           - bundle exec rake db:migrate
 
       jobs:
@@ -96,6 +98,8 @@ blocks:
           - sem-service start postgres
           - sem-version ruby 2.7.6
           - bundle install --deployment --path vendor/bundle
+          - bundle exec rake db:drop
+          - bundle exec rake db:create
           - bundle exec rake db:migrate
 
       jobs:
