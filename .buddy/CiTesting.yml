@@ -1,0 +1,32 @@
+- pipeline: "Ci Testing"
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+    refs:
+    - ":default"
+  priority: "NORMAL"
+  fail_on_prepare_env_warning: true
+  actions:
+  - action: "Execute bundle exec rspec spec"
+    type: "BUILD"
+    docker_image_name: "library/ruby"
+    docker_image_tag: "2.7.6"
+    execute_commands:
+    - "bundle install"
+    - "bundle exec rake db:setup"
+    - "bundle exec rails db:migrate"
+    - "bundle exec rspec spec"
+    services:
+    - type: "POSTGRE_SQL"
+      version: "latest"
+      connection:
+        host: 127.0.0.1
+        port: 5432
+        user: "postgres"
+        password: "postgres"
+    cached_dirs:
+    - "/usr/local/bundle"
+    volume_mappings:
+    - "/:/buddy/projectcicdtest"
+    cache_base_image: true
+    shell: "BASH"
