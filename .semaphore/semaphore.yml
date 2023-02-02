@@ -1,3 +1,50 @@
+# version: v1.0
+# name: Demo Rails 5 app
+# agent:
+#   machine:
+#     type: e1-standard-2
+#     os_image: ubuntu1804
+# blocks:
+#   - name: Setup
+#     task:
+#       jobs:
+#         - name: bundle
+#           commands:
+#             - checkout
+#             - cache restore
+#             - sem-version ruby 2.7.6
+#             - bundle install --deployment -j 4 --path vendor/bundle
+#             - cache store
+#     dependencies: []
+#   - name: Code scanning
+#     task:
+#       jobs:
+#         - name: check style + security
+#           commands:
+#             - checkout
+#             - cache restore
+#             - sem-version ruby 2.7.6
+#             - bundle install --deployment --path vendor/bundle
+#     dependencies:
+#       - Setup
+#   - name: Integration tests
+#     task:
+#       jobs:
+#         - name: RSpec - specs
+#           commands:
+#             - checkout
+#             - cache restore
+#             - sem-service start postgres
+#             - sem-version ruby 2.7.6
+#             - bundle install --deployment --path vendor/bundle
+#             # Use CI's database.yml
+#             - cp .semaphore/database.yml config/database.yml
+#             - bundle exec rails db:create
+#             - bundle exec rails db:migrate
+#             - bundle exec rspec spec
+#     dependencies:
+#       - Code scanning
+
 # .semaphore/semaphore.yml
 # Use the latest stable version of Semaphore 2.0 YML syntax:
 version: v1.0
@@ -40,7 +87,7 @@ blocks:
           # Read about caching: https://docs.semaphoreci.com/article/54-toolbox-reference#cache
           - cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-
           # Set Ruby version:
-          - sem-version ruby 2.6.1
+          - sem-version ruby 2.7.6
           - bundle install --jobs=4 --retry=3 --path vendor/bundle
           # Store the latest version of dependencies in cache,
           # to be used in next blocks and future workflows:
@@ -65,7 +112,7 @@ blocks:
           # Start Postgres database service.
           # See https://docs.semaphoreci.com/article/54-toolbox-reference#sem-service
           - sem-service start postgres
-          - sem-version ruby 2.6.1
+          - sem-version ruby 2.7.6
           - bundle install --jobs=4 --retry=3 --path vendor/bundle
           - bundle exec rake db:setup
 
