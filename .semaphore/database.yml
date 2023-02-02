@@ -1,0 +1,6 @@
+test:
+  adapter: postgresql
+  database: cicd_test
+  pool: 5
+  username: postgres
+  password: postgres

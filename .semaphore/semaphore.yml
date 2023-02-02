@@ -29,12 +29,6 @@ blocks:
       - Setup
   - name: Integration tests
     task:
-      env_vars:
-        # Matches the configuration used in sem-service
-        - name: DATABASE_URL
-          value: postgresql://postgres@localhost/test?encoding=utf8
-        - name: RAILS_ENV
-          value: test
       jobs:
         - name: RSpec - specs
           commands:
@@ -43,8 +37,8 @@ blocks:
             - sem-service start postgres
             - sem-version ruby 2.7.6
             - bundle install --deployment --path vendor/bundle
-            # Clear existing config/database.yml
-            - cat /dev/null > config/database.yml
+            # Use CI's database.yml
+            - cp .semaphore/database.yml config/database.yml
             - bin/rails db:create
             - bundle exec rspec spec
     dependencies:
