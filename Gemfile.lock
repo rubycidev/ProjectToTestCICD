@@ -269,6 +269,7 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.2)
   rspec-rails (~> 4.1.2)
   sass-rails (>= 6)
+  sassc (>= 1.12.1)
   selenium-webdriver (>= 4.0.0.rc1)
   simplecov
   spring
