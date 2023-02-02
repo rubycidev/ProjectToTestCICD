@@ -39,7 +39,8 @@ blocks:
             - bundle install --deployment --path vendor/bundle
             # Use CI's database.yml
             - cp .semaphore/database.yml config/database.yml
-            - bin/rails db:create
+            - bundle exec rails db:create
+            - bundle exec rails db:migrate
             - bundle exec rspec spec
     dependencies:
       - Code scanning
