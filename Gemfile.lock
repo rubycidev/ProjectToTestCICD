@@ -261,6 +261,7 @@ DEPENDENCIES
   capybara
   database_cleaner
   factory_girl_rails
+  ffi
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg
@@ -269,6 +270,7 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.2)
   rspec-rails (~> 4.1.2)
   sass-rails (>= 6)
+  sassc (>= 1.12.1)
   selenium-webdriver (>= 4.0.0.rc1)
   simplecov
   spring

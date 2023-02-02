@@ -18,6 +18,8 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'pg'
+gem 'sassc', '>= 1.12.1'
+gem 'ffi'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -33,6 +35,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pg'
+ # gem 'rubocop',                                                               '~> 0.82.0'
+  #gem 'rubocop-rspec',                                                         '~> 1.38.1'
 end
 
 group :development do
