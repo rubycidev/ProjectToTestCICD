@@ -115,10 +115,11 @@ blocks:
           - sem-version ruby 2.7.6
           - bundle install --jobs=4 --retry=3 --path vendor/bundle
           - bundle exec rake db:setup
+          - bundle exec rails db:migrate
 
       jobs:
       - name: Run tests
         parallelism: 2
         commands:
         # Step for RSpec in Regular Mode
-        - bundle exec rake rspec spec
+        - bundle exec rspec spec
