@@ -55,8 +55,6 @@ blocks:
           value: 127.0.0.1
         - name: PGUSER
           value: postgres
-        - name: KNAPSACK_PRO_TEST_SUITE_TOKEN_RSPEC
-          value: your_api_token_here
       # This block runs two jobs in parallel and they both share common
       # setup steps. We can group them in a prologue.
       # See https://docs.semaphoreci.com/article/50-pipeline-yaml#prologue
@@ -72,8 +70,8 @@ blocks:
           - bundle exec rake db:setup
 
       jobs:
-      - name: Run tests with Knapsack Pro
+      - name: Run tests
         parallelism: 2
         commands:
         # Step for RSpec in Regular Mode
-        - bundle exec rake knapsack_pro:rspec
+        - bundle exec rake rspec spec
