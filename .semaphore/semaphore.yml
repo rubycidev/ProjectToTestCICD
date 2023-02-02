@@ -58,37 +58,6 @@ blocks:
             #- bundle exec rubocop
            # - bundle exec brakeman
 
-  - name: Unit tests
-    task:
-      # This block runs two jobs in parallel and they both share common
-      # setup steps. We can group them in a prologue.
-      # See https://docs.semaphoreci.com/reference/pipeline-yaml-reference/#prologue
-      prologue:
-        commands:
-          - checkout
-          - cache restore
-          # Start Postgres database service.
-          # See https://docs.semaphoreci.com/reference/toolbox-reference/#sem-service
-          - sem-service start postgres
-          - sem-version ruby 2.7.6
-          - bundle install --deployment --path vendor/bundle
-          - bundle exec rake db:drop
-          - bundle exec rake db:create
-          - bundle exec rake db:migrate
-
-      jobs:
-      - name: RSpec - model tests
-        commands:
-          - bundle exec rspec spec/models
-
-      - name: RSpec - controller tests
-        commands:
-          - bundle exec rspec spec/controllers
-
-  # Note that it's possible to define an agent on a per-block level.
-  # For example, if your integration tests need more RAM, you could override
-  # agent configuration here to use e1-standard-8.
-  # See https://docs.semaphoreci.com/reference/pipeline-yaml-reference/#agent-in-task
   - name: Integration tests
     task:
       prologue:
@@ -103,6 +72,6 @@ blocks:
           - bundle exec rake db:migrate
 
       jobs:
-      - name: RSpec - feature specs
+      - name: RSpec - specs
         commands:
           - bundle exec rspec spec
