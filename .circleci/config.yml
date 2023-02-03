@@ -10,7 +10,7 @@ jobs:
       - checkout
       - ruby/install-deps
   test:
-    # parallelism: 3
+    parallelism: 2
     docker:
       - image: cimg/ruby:2.7.6
       - image: circleci/postgres:9.5-alpine
