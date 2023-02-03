@@ -16,7 +16,7 @@ jobs:
       - image: circleci/postgres:9.5-alpine
         environment:
           POSTGRES_USER: postgres
-          POSTGRES_DB: test_ci
+          POSTGRES_DB: cicd_test
           POSTGRES_PASSWORD: postgres
     environment:
       BUNDLE_JOBS: "3"
