@@ -9,9 +9,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -20,9 +18,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -31,9 +27,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -42,9 +36,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -53,9 +45,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -64,9 +54,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -75,9 +63,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -86,9 +72,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -97,9 +81,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -108,9 +90,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -119,9 +99,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -130,9 +108,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -141,9 +117,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -152,9 +126,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -163,9 +135,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -174,9 +144,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -185,9 +153,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -196,9 +162,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -207,9 +171,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -218,9 +180,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -229,9 +189,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -240,9 +198,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -251,9 +207,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -262,9 +216,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -273,9 +225,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -284,9 +234,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -295,9 +243,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -306,9 +252,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -317,9 +261,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -328,9 +270,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -339,9 +279,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -350,9 +288,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -361,9 +297,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -372,9 +306,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -383,9 +315,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -394,9 +324,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -405,9 +333,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -416,9 +342,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -427,9 +351,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -438,9 +360,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -449,9 +369,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -460,9 +378,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -471,9 +387,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -482,9 +396,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -493,9 +405,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -504,9 +414,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -515,9 +423,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -526,9 +432,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -537,9 +441,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -548,9 +450,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -559,9 +459,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -570,9 +468,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -581,9 +477,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -592,9 +486,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -603,9 +495,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -614,9 +504,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -625,9 +513,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -636,9 +522,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -647,9 +531,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -658,9 +540,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -669,9 +549,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -680,9 +558,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -691,9 +567,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -702,9 +576,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -713,9 +585,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -724,9 +594,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -735,9 +603,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -746,9 +612,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -757,9 +621,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -768,9 +630,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -779,9 +639,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -790,9 +648,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -801,9 +657,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -812,9 +666,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -823,9 +675,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -834,9 +684,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -845,9 +693,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -856,9 +702,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -867,9 +711,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -878,9 +720,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -889,9 +729,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -900,9 +738,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -911,9 +747,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -922,9 +756,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -933,9 +765,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -944,9 +774,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -955,9 +783,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -966,9 +792,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -977,9 +801,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -988,9 +810,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -999,9 +819,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1010,9 +828,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1021,9 +837,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1032,9 +846,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1043,9 +855,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1054,9 +864,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1065,9 +873,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1076,9 +882,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1087,9 +891,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1098,9 +900,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1109,9 +909,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1120,9 +918,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1131,9 +927,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1142,9 +936,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1153,9 +945,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1164,9 +954,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1175,9 +963,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1186,9 +972,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1197,9 +981,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1208,9 +990,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1219,9 +999,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1230,9 +1008,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1241,9 +1017,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1252,9 +1026,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1263,9 +1035,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1274,9 +1044,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1285,9 +1053,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1296,9 +1062,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1307,9 +1071,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1318,9 +1080,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1329,9 +1089,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1340,9 +1098,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1351,9 +1107,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1362,9 +1116,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1373,9 +1125,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1384,9 +1134,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1395,9 +1143,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1406,9 +1152,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1417,9 +1161,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1428,9 +1170,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1439,9 +1179,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1450,9 +1188,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1461,9 +1197,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1472,9 +1206,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1483,9 +1215,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1494,9 +1224,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1505,9 +1233,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1516,9 +1242,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1527,9 +1251,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1538,9 +1260,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1549,9 +1269,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1560,9 +1278,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1571,9 +1287,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1582,9 +1296,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1593,9 +1305,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1604,9 +1314,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1615,9 +1323,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1626,9 +1332,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1637,9 +1341,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1648,9 +1350,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1659,9 +1359,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1670,9 +1368,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1681,9 +1377,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1692,9 +1386,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1703,9 +1395,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1714,9 +1404,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1725,9 +1413,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1736,9 +1422,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1747,9 +1431,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1758,9 +1440,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1769,9 +1449,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1780,9 +1458,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1791,9 +1467,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1802,9 +1476,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1813,9 +1485,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1824,9 +1494,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1835,9 +1503,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1846,9 +1512,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1857,9 +1521,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1868,9 +1530,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1879,9 +1539,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1890,9 +1548,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1901,9 +1557,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1912,9 +1566,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1923,9 +1575,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1934,9 +1584,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1945,9 +1593,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1956,9 +1602,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1967,9 +1611,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1978,9 +1620,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -1989,9 +1629,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2000,9 +1638,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2011,9 +1647,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2022,9 +1656,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2033,9 +1665,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2044,9 +1674,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2055,9 +1683,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2066,9 +1692,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2077,9 +1701,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2088,9 +1710,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2099,9 +1719,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2110,9 +1728,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2121,9 +1737,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2132,9 +1746,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2143,9 +1755,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2154,9 +1764,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2165,9 +1773,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2176,9 +1782,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2187,9 +1791,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2198,9 +1800,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2209,9 +1809,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2220,9 +1818,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2231,9 +1827,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2242,9 +1836,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2253,9 +1845,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2264,9 +1854,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2275,9 +1863,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2286,9 +1872,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2297,9 +1881,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2308,9 +1890,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2319,9 +1899,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2330,9 +1908,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2341,9 +1917,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2352,9 +1926,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2363,9 +1935,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2374,9 +1944,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2385,9 +1953,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2396,9 +1962,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2407,9 +1971,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2418,9 +1980,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2429,9 +1989,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2440,9 +1998,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2451,9 +2007,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2462,9 +2016,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2473,9 +2025,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2484,9 +2034,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2495,9 +2043,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2506,9 +2052,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2517,9 +2061,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2528,9 +2070,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2539,9 +2079,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2550,9 +2088,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2561,9 +2097,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2572,9 +2106,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2583,9 +2115,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2594,9 +2124,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2605,9 +2133,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2616,9 +2142,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2627,9 +2151,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2638,9 +2160,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2649,9 +2169,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2660,9 +2178,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2671,9 +2187,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2682,9 +2196,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2693,9 +2205,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2704,9 +2214,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2715,9 +2223,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2726,9 +2232,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2737,9 +2241,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2748,9 +2250,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2759,9 +2259,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2770,9 +2268,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2781,9 +2277,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2792,9 +2286,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2803,9 +2295,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2814,9 +2304,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2825,9 +2313,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2836,9 +2322,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2847,9 +2331,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2858,9 +2340,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2869,9 +2349,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2880,9 +2358,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2891,9 +2367,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2902,9 +2376,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2913,9 +2385,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2924,9 +2394,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2935,9 +2403,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2946,9 +2412,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2957,9 +2421,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2968,9 +2430,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2979,9 +2439,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -2990,9 +2448,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3001,9 +2457,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3012,9 +2466,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3023,9 +2475,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3034,9 +2484,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3045,9 +2493,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3056,9 +2502,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3067,9 +2511,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3078,9 +2520,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3089,9 +2529,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3100,9 +2538,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3111,9 +2547,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3122,9 +2556,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3133,9 +2565,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3144,9 +2574,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3155,9 +2583,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3166,9 +2592,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3177,9 +2601,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3188,9 +2610,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3199,9 +2619,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3210,9 +2628,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3221,9 +2637,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3232,9 +2646,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3243,9 +2655,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3254,9 +2664,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3265,9 +2673,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3276,9 +2682,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3287,9 +2691,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3298,9 +2700,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3309,9 +2709,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3320,9 +2718,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3331,9 +2727,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3342,9 +2736,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3353,9 +2745,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3364,9 +2754,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3375,9 +2763,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3386,9 +2772,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3397,9 +2781,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3408,9 +2790,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3419,9 +2799,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3430,9 +2808,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3441,9 +2817,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3452,9 +2826,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3463,9 +2835,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3474,9 +2844,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3485,9 +2853,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3496,9 +2862,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3507,9 +2871,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3518,9 +2880,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3529,9 +2889,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3540,9 +2898,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3551,9 +2907,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3562,9 +2916,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3573,9 +2925,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3584,9 +2934,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3595,9 +2943,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3606,9 +2952,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3617,9 +2961,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3628,9 +2970,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3639,9 +2979,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3650,9 +2988,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3661,9 +2997,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3672,9 +3006,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3683,9 +3015,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3694,9 +3024,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3705,9 +3033,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3716,9 +3042,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3727,9 +3051,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3738,9 +3060,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3749,9 +3069,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3760,9 +3078,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3771,9 +3087,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3782,9 +3096,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3793,9 +3105,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3804,9 +3114,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3815,9 +3123,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3826,9 +3132,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3837,9 +3141,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3848,9 +3150,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3859,9 +3159,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3870,9 +3168,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3881,9 +3177,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3892,9 +3186,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3903,9 +3195,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3914,9 +3204,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3925,9 +3213,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3936,9 +3222,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3947,9 +3231,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3958,9 +3240,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3969,9 +3249,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3980,9 +3258,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -3991,9 +3267,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4002,9 +3276,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4013,9 +3285,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4024,9 +3294,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4035,9 +3303,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4046,9 +3312,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4057,9 +3321,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4068,9 +3330,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4079,9 +3339,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4090,9 +3348,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4101,9 +3357,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4112,9 +3366,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4123,9 +3375,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4134,9 +3384,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4145,9 +3393,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4156,9 +3402,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4167,9 +3411,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4178,9 +3420,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4188,10 +3428,8 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :created_at }
     it { is_expected.to respond_to :updated_at }
   end
+
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4200,9 +3438,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4211,9 +3447,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4222,9 +3456,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4233,9 +3465,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4244,9 +3474,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4255,9 +3483,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4266,9 +3492,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4277,9 +3501,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4288,9 +3510,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4299,9 +3519,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4310,9 +3528,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4321,9 +3537,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4332,9 +3546,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4343,9 +3555,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4354,9 +3564,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4365,9 +3573,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4376,9 +3582,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4387,9 +3591,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4398,9 +3600,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4409,9 +3609,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4420,9 +3618,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4431,9 +3627,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4442,9 +3636,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4453,9 +3645,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4464,9 +3654,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4475,9 +3663,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4486,9 +3672,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4497,9 +3681,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4508,9 +3690,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4519,9 +3699,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4530,9 +3708,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4541,9 +3717,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4552,9 +3726,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4563,9 +3735,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4574,9 +3744,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4585,9 +3753,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4596,9 +3762,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4607,9 +3771,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4618,9 +3780,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4629,9 +3789,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4640,9 +3798,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4651,9 +3807,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4662,9 +3816,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4673,9 +3825,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4684,9 +3834,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4695,9 +3843,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4706,9 +3852,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4717,9 +3861,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4728,9 +3870,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4739,9 +3879,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4750,9 +3888,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4761,9 +3897,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4772,9 +3906,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4783,9 +3915,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4794,9 +3924,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4805,9 +3933,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4816,9 +3942,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4827,9 +3951,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4838,9 +3960,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4849,9 +3969,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4860,9 +3978,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4871,9 +3987,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4882,9 +3996,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4893,9 +4005,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4904,9 +4014,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4915,9 +4023,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4926,9 +4032,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4937,9 +4041,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4948,9 +4050,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4959,9 +4059,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4970,9 +4068,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4981,9 +4077,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -4992,9 +4086,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5003,9 +4095,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5014,9 +4104,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5025,9 +4113,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5036,9 +4122,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5047,9 +4131,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5058,9 +4140,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5069,9 +4149,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5080,9 +4158,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5091,9 +4167,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5102,9 +4176,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5113,9 +4185,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5124,9 +4194,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5135,9 +4203,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5146,9 +4212,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5157,9 +4221,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5168,9 +4230,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5179,9 +4239,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5190,9 +4248,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5201,9 +4257,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5212,9 +4266,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5223,9 +4275,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5234,9 +4284,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5245,9 +4293,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5256,9 +4302,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5267,9 +4311,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5278,9 +4320,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5289,9 +4329,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5300,9 +4338,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5311,9 +4347,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5322,9 +4356,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5333,9 +4365,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5344,9 +4374,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5355,9 +4383,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5366,9 +4392,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5377,9 +4401,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5388,9 +4410,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5399,9 +4419,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5410,9 +4428,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5421,9 +4437,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5432,9 +4446,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5443,9 +4455,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5454,9 +4464,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5465,9 +4473,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5476,9 +4482,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5487,9 +4491,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5498,9 +4500,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5509,9 +4509,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5520,9 +4518,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5531,9 +4527,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5542,9 +4536,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5553,9 +4545,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5564,9 +4554,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5575,9 +4563,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5586,9 +4572,7 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
   describe 'attributes' do
     it { is_expected.to respond_to :commenter }
     it { is_expected.to respond_to :body }
@@ -5597,8 +4581,6 @@ RSpec.describe Comment, type: :model do
     it { is_expected.to respond_to :updated_at }
   end
 
-  describe 'associations' do
-    it { is_expected.to belong_to(:post) }
-  end
+
 end
 
