@@ -1,9 +1,11 @@
+
 version: v1.0
-name: Demo Rails 5 app
+name: Demo Rails app
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu2004
+
 blocks:
   - name: Setup
     task:
@@ -13,11 +15,12 @@ blocks:
       jobs:
         - name: bundle
           commands:
-            - checkout
-            - 'cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-'
-            - sem-version ruby 2.7.6
-            - bundle install --jobs=4 --retry=3 --path vendor/bundle
-            - cache store gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock) vendor/bundle
+          - checkout
+          - cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-
+          - sem-version ruby 2.7.6
+          - bundle install --jobs=4 --retry=3 --path vendor/bundle
+          - cache store gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock) vendor/bundle
+
   - name: RSpec tests
     task:
       env_vars:
@@ -30,14 +33,15 @@ blocks:
       prologue:
         commands:
           - checkout
-          - 'cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-'
+          - cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-
           - sem-service start postgres
           - sem-version ruby 2.7.6
           - bundle install --jobs=4 --retry=3 --path vendor/bundle
-          - 'bundle exec rake db:setup'
-          - 'bundle exec rails db:migrate'
+          - bundle exec rake db:setup
+          - bundle exec rails db:migrate
+
       jobs:
-        - name: Run tests
-          parallelism: 2
-          commands:
-            - bundle exec rspec spec
+      - name: Run tests
+        parallelism: 2
+        commands:
+        - bundle exec rspec spec
