@@ -1,6 +1,13 @@
+version: v1.0
+name: ''
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
 test:
   adapter: postgresql
   database: cicd_test
   pool: 5
   username: postgres
   password: postgres
+blocks: []
